@@ -1,0 +1,16 @@
+{
+  "name": "safety-c",
+  "version": "1.0.0",
+  "description": "SafetyCulture test task",
+  "main": "main.js",
+  "scripts": {
+    "test-unit": "NODE_ENV=test mocha './**/*.spec.js'"
+  },
+  "author": "Hariton Stefan <hariton.stefan@outlook.com>",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "sinon": "^2.1.0"
+  }
+}
